@@ -1,4 +1,6 @@
-class Solution {
+package Sorting;
+
+public class Solution {
     // Function to perform quicksort
     public void quickSort(int[] arr, int low, int high) {
         // Base case
@@ -41,22 +43,5 @@ class Solution {
 
         // Return pivot index
         return i + 1;
-    }
-}
-
-public class QuQuick {
-    public static void main(String[] args) {
-        // Input array
-        int[] arr = {10, 7, 8, 9, 1, 5};
-
-        // Create object
-        Solution sol = new Solution();
-
-        // Call quickSort
-        sol.quickSort(arr, 0, arr.length - 1);
-
-        // Print sorted array
-        for (int num : arr)
-            System.out.print(num + " ");
     }
 }
