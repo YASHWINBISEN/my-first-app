@@ -28,7 +28,6 @@ public class duplicate {
         }
         System.out.println();
         System.out.println(arr[i+1]);
-        // mf
 
     }
 }
