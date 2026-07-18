@@ -20,7 +20,7 @@ public class duplicate {
             }
         }
         System.out.println();
-        
+
         System.out.println("After removing duplicate: ");
 
         for(int k=0;k<n;k++){
@@ -28,6 +28,7 @@ public class duplicate {
         }
         System.out.println();
         System.out.println(arr[i+1]);
+        // mf
 
     }
 }
