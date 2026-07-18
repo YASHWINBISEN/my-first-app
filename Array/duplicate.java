@@ -6,10 +6,13 @@ public class duplicate {
         int []arr = {1,1,2,2,2,3,3};
         int n = arr.length;
         int i=0;
+
         System.out.println("Before removing duplicate: ");
+
         for(int k=0;k<n;k++){
             System.out.print(arr[k]+",");
         }
+
         for(int j=1;j<n;j++){
             if(arr[i]!=arr[j]){
                 arr[i+1]=arr[j];
@@ -17,6 +20,7 @@ public class duplicate {
             }
         }
         System.out.println();
+        
         System.out.println("After removing duplicate: ");
 
         for(int k=0;k<n;k++){
